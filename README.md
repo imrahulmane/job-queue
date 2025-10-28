@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Job-Queue
 
 A PostgreSQL-based job queue with concurrent worker processing. Uses `FOR UPDATE SKIP LOCKED` for atomic job claiming without external message brokers.
@@ -192,3 +193,5 @@ docker-compose logs -f worker
 ## License
 
 MIT
+=======
+>>>>>>> 825be33700cc70b309c1b55d811e254e25a82e33

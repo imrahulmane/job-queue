@@ -155,4 +155,10 @@ settings.local.py
 
 # Performance profiling
 *.prof
+<<<<<<< HEAD
 .profile
+=======
+.profile
+
+
+>>>>>>> 825be33700cc70b309c1b55d811e254e25a82e33
