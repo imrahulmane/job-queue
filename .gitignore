@@ -1,0 +1,158 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+docker/dev/.env
+docker/prod/.env
+
+# IDE - PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# Logs
+*.log
+logs/
+*.log.*
+log/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+
+# PostgreSQL
+postgres_data/
+postgres_data_dev/
+pgdata/
+*.sql.backup
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+test-results/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Temporary files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.temp
+~*
+
+# Job Processing Temporary Files
+/tmp/job_processing/
+/uploads/
+/downloads/
+/temp_files/
+
+# Celery (if you add it later)
+celerybeat-schedule
+celerybeat.pid
+
+# Documentation
+docs/_build/
+site/
+
+# Secrets and credentials (be extra careful!)
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+
+# Application specific
+*.pid
+*.seed
+*.pid.lock
+
+# Media files (job outputs)
+media/
+static/user_uploads/
+
+# Large files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+*.zip
+*.tar.gz
+*.rar
+
+# Package managers
+node_modules/
+package-lock.json
+yarn.lock
+
+# Alembic (if you add database migrations later)
+# alembic/versions/*.py
+# !alembic/versions/__init__.py
+
+# Local configuration overrides
+config.local.py
+settings.local.py
+
+# Performance profiling
+*.prof
+.profile
