@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Job-Queue
 
 A PostgreSQL-based job queue with concurrent worker processing. Uses `FOR UPDATE SKIP LOCKED` for atomic job claiming without external message brokers.
